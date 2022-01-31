@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Simple Web Contact Form</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<header>
+</header>
+
+<body>
+
+
+<form action="action_page.php" method="post">
+
+<h1>Get In Touch</h1>
+
+<!--Form text entry for first and last name -->
+<label for="fname"></label>
+<input type="text" id="fname" name="fname" placeholder="First Name">
+
+<label for="lname"></label>
+<input type="text" id="lname" name="lname" placeholder="Last Name"><br>
+
+<!--Text entry for email -->
+<label for="email"></label>
+<input type="text" id="email" name="email" placeholder="Email">
+
+<!--Text entry for phone number -->
+<label for="phone"></label>
+<input type="text" id="phone" name="phone" placeholder="Phone Number"><br>
+
+<!-- Query dropdown menu -->
+<label for="query">What type of comment do you have?</label>
+<select id="query" name="comment_type">
+  <option value="Question">Question</option>
+  <option value="Feedback">Feedback</option>
+  <option value="Complaint">Complaint</option>
+  <option value="Other">Other</option>
+</select><br>
+
+<!-- Comment Section -->
+<p>
+  <textarea name="comment_section" placeholder="Type your message here"></textarea>
+</p>
+
+<!-- Submit Button -->
+<input type="submit" value="Submit">
+
+</form>
+</body>
+
+
+
+<footer>
+
+
+
+</footer>
+</html>
