@@ -4,12 +4,12 @@ header {
 
 body{
   background-color: rgb(204,224,251); /* Light Blue */
-  align-items: center;
 }
 
 body h1 {
   text-align: center;
   padding-bottom: 0px;
+  font-family: arial;
 }
 
 form  {
@@ -21,6 +21,8 @@ form  {
   margin-left: 50px;
   margin-right: 50px;
   text-align: center;
+  font-family: arial;
+  font-size: 13px;
 }
 
 input  {
@@ -30,21 +32,22 @@ input  {
   padding-right: none;
   padding-bottom: 10px;
   margin-top: 5px;
-  margin-bottom: 5px;
-  margin-right: 5px;
   color:rgb(62,0,248);
+  outline: none;
 }
 
 textarea {
   box-sizing: border-box;
   resize: none;
-  width:385px;
+  width:380px;
   height:200px;
-  color:rgb(62,0,248);
+  color:rgb(62,0,248); /* Blue Text */
   padding: 10px;
   background-color: rgb(168,170,255); /* Light Blue 3 */
   border: none;
   border-radius: 5px;
+  font-family: arial;
+  font-size: 13px;
 }
 
 /* SUBMIT BUTTON */
@@ -55,6 +58,7 @@ input[type="submit"] {
   border-radius: 20px;
   border: none;
   background-color: rgb(68,0,249); /* Dark Blue */
+  font-family: arial;
 }
 
 /* First and Last Name */
@@ -62,6 +66,7 @@ input[id="fname"],[id="lname"]{
   background-color: rgb(232,231,255); /* Light Blue 1 */
   border-radius: 5px;
   width: 175px;
+  margin-bottom: 5px;
 }
 
 /* Email and Phone Number*/
@@ -69,6 +74,7 @@ input[id="email"],[id="phone"] {
   background-color: rgb(201,201,255);
   border-radius: 5px;
   width: 175px;
+  margin-bottom: 5px;
 }
 
 /* Query Question */
@@ -78,23 +84,24 @@ input[id="comment_query"]{
   border: none;
   border-radius: 5px;
   padding: 10px;
-
   margin-top: 5px;
-  margin-bottom: 0;
-  margin-right: 5px;
   background-color: rgb(201,201,255); /* Light Blue 2 */
+  margin-bottom: 0px;
 }
 
 select[id="query"]{
   box-sizing: border-box;
   width: 125px;
-  padding: 7px;
+  padding: 8.5px;
   margin-left: 0px;
   margin-top: 5px;
   outline: none;
   border: none;
   border-radius: 5px;
   background-color: rgb(201,201,255);/* Light Blue 2 */
+  font-family: arial;
+  font-size: 13px;
+  color:rgb(62,0,248); /* Blue Text */
 }
 
 footer {
