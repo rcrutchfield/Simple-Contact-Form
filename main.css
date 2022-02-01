@@ -5,27 +5,23 @@ header {
 
 body{
   background-color: rgb(204,224,251); /* Light Blue */
+  align-items: center;
 }
 
 body h1 {
-  text-align: left;
-  margin-left: 50px;
+  text-align: center;
   padding-bottom: 0px;
 }
 
 form {
   background-color: rgb(253,254,255); /* White */
   border-style: blank;
-  /* width: 500px; */
-
+  width: 500px;
   padding-top: 20px;
   padding-bottom: 20px;
-
   margin-left: 50px;
   margin-right: 50px;
   text-align: center;
-
-
 }
 
 input {
@@ -41,15 +37,15 @@ input {
 }
 
 textarea {
+  box-sizing: border-box;
   resize: none;
-  width:370px;
+  width:385px;
   height:200px;
-  font-family:serif;
   color:rgb(62,0,248);
-  padding-left: 10px;
+  padding: 10px;
   background-color: rgb(168,170,255); /* Light Blue 3 */
   border: none;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 /* SUBMIT BUTTON */
@@ -66,39 +62,53 @@ input[type="submit"] {
 input[id="fname"] {
   background-color: rgb(232,231,255); /* Light Blue 1 */
   border-radius: 5px;
-  width: 172.5px;
+  width: 175px;
 }
 /* Last Name */
 input[id="lname"] {
   background-color: rgb(232,231,255); /* Light Blue 1 */
   border-radius: 5px;
-  width: 172.5px;
+  width: 175px;
 }
 /* Email */
 input[id="email"] {
   background-color: rgb(201,201,255); /* Light Blue 2 */
   border-radius: 5px;
-  width: 172.5px;
+  width: 175px;
 }
 
 /* Phone Number */
 input[id="phone"] {
   background-color: rgb(201,201,255); /* Light Blue 2 */
   border-radius: 5px;
-  width: 172.5px;
+  width: 175px;
 }
 
 /* Query Question */
-label[for="query"]{
-  /* width:370px;
-  border: solid;
+input[id="comment_query"]{
+  box-sizing: border-box;
+  width:250px;
+  border: none;
   border-radius: 5px;
-  padding-left: 10px; */
+  padding: 10px;
 
-  /* background-color: rgb(201,201,255); /* Light Blue 2 */ */
+  margin-top: 5px;
+  margin-bottom: 0;
+  margin-right: 5px;
+  background-color: rgb(201,201,255); /* Light Blue 2 */
 }
 
-Select
+select[id="query"]{
+  box-sizing: border-box;
+  width: 125px;
+  padding: 7px;
+  margin-left: 0px;
+  margin-top: 5px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(201,201,255);/* Light Blue 2 */
+}
 
 footer {
   text-align: center;
