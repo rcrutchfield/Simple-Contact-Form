@@ -4,19 +4,12 @@
   <meta charset="utf-8">
   <title>Simple Web Contact Form</title>
   <link rel="stylesheet" href="main.css">
-
-  <style>
-    .select {
-      background-color: white;
-    }
-  </style>
 </head>
 
 <header>
 </header>
 
 <body>
-
 
 <form action="action_page.php" method="post">
 
@@ -37,19 +30,16 @@
 <label for="phone"></label>
 <input type="text" id="phone" name="phone" placeholder="Phone Number"><br>
 
-<!-- Query as a read-only text input -->
-<!-- <label for="text_query"></label>
-<input type="text" id="text_query" name="text_query" placeholder="What type of comments do you have?" readonly> -->
-
 <!-- Query dropdown menu -->
+<input type="text" id="comment_query" placeholder="What type of comment do you have?" readonly>
+
 <select id="query" name="comment_type">
-  <option value="0">What type of comments do you have?</option>
+  <option value="0"></option>
   <option value="1">Question</option>
   <option value="2">Feedback</option>
   <option value="3">Complaint</option>
   <option value="4">Other</option>
 </select><br>
-
 
 <!-- Comment Section -->
 <p>
@@ -62,11 +52,7 @@
 </form>
 </body>
 
-
-
 <footer>
-
-
 
 </footer>
 </html>
