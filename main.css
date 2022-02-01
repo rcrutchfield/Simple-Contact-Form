@@ -4,6 +4,7 @@ header {
 
 body{
   background-color: rgb(204,224,251); /* Light Blue */
+  align-items: center;
 }
 
 body h1 {
@@ -17,7 +18,6 @@ form  {
   width: 500px;
   padding-top: 20px;
   padding-bottom: 20px;
-
   margin-left: 50px;
   margin-right: 50px;
   text-align: center;
@@ -36,13 +36,12 @@ input  {
 }
 
 textarea {
+  box-sizing: border-box;
   resize: none;
-  width:370px;
+  width:385px;
   height:200px;
-
   color:rgb(62,0,248);
-  padding-left: 10px;
-  padding-top: 10px;
+  padding: 10px;
   background-color: rgb(168,170,255); /* Light Blue 3 */
   border: none;
   border-radius: 5px;
@@ -59,26 +58,43 @@ input[type="submit"] {
 }
 
 /* First and Last Name */
-input[id="fname"],[id="lname"],[id="email"]{
+input[id="fname"],[id="lname"]{
   background-color: rgb(232,231,255); /* Light Blue 1 */
   border-radius: 5px;
-  width: 172.5px;
+  width: 175px;
 }
 
 /* Email and Phone Number*/
 input[id="email"],[id="phone"] {
   background-color: rgb(201,201,255);
   border-radius: 5px;
-  width: 172.5px;
+  width: 175px;
 }
 
-/* Query question */
-/* .select {
-
-  background-color: rgb(201,201,255);
+/* Query Question */
+input[id="comment_query"]{
+  box-sizing: border-box;
+  width:250px;
+  border: none;
   border-radius: 5px;
-  width: 370px; */
-  /* display: inline-block; */
+  padding: 10px;
+
+  margin-top: 5px;
+  margin-bottom: 0;
+  margin-right: 5px;
+  background-color: rgb(201,201,255); /* Light Blue 2 */
+}
+
+select[id="query"]{
+  box-sizing: border-box;
+  width: 125px;
+  padding: 7px;
+  margin-left: 0px;
+  margin-top: 5px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(201,201,255);/* Light Blue 2 */
 }
 
 footer {
