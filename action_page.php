@@ -43,7 +43,7 @@
   <span> <?php echo $_POST["phone"]; ?><br></span>
 <hr>
     Comment Type:
-  <span> <?php echo $_POST["query"]; ?><br></span>
+  <span> <?php echo $_POST["comment_type"]; ?><br></span>
 <hr>
     Message:
   <span> <?php echo $_POST["comment_section"]; ?><br></span>

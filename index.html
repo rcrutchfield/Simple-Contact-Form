@@ -23,7 +23,7 @@
 
 <!--Text entry for email -->
 <label for="email"></label>
-<input type="text" id="email" name="email" placeholder="Email" required>
+<input type="text" id="email" name="email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
 
 <!--Text entry for phone number -->
 <label for="phone"></label>
@@ -33,7 +33,7 @@
 <input type="text" id="comment_query" placeholder="Choose Comment Type:" readonly disabled>
 
 <select id="query" name="comment_type" required>
-  <option value="None"></option>
+  <option disabled selected value>- select an option -</option>
   <option value="Question">Question</option>
   <option value="Feedback">Feedback</option>
   <option value="Complaint">Complaint</option>
