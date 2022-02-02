@@ -47,11 +47,7 @@ input  {
 textarea {
   box-sizing: border-box;
   resize: none;
-<<<<<<< HEAD
-  width:380px;
-=======
   width:350px;
->>>>>>> 529850db92e7913df1b3112a6a58f74099e51f6e
   height:200px;
   color:rgb(62,0,248); /* Blue Text */
   padding: 10px;
@@ -59,7 +55,6 @@ textarea {
   border: none;
   border-radius: 5px;
   font-family: arial
->>>>>>> 529850db92e7913df1b3112a6a58f74099e51f6e
 }
 
 /* SUBMIT BUTTON */
@@ -94,7 +89,7 @@ input[id="email"],[id="phone"] {
 /* Query Question */
 input[id="comment_query"]{
   box-sizing: border-box;
-  width: 172.5px;
+  width: 174px;
   border: none;
   border-radius: 5px;
   padding: 10px;
@@ -105,8 +100,8 @@ input[id="comment_query"]{
 select[id="query"]{
   color:rgb(62,0,248);
   box-sizing: border-box;
-  width: 172.5px;
-  height: 34px;
+  width: 174px;
+  height: 35px;
   padding: 7px;
 
   outline: none;
