@@ -38,11 +38,22 @@
   <option value="2">Feedback</option>
   <option value="3">Complaint</option>
   <option value="4">Other</option>
+
+<input type="text" id="comment_query" placeholder="Choose Comment Type:" readonly disabled>
+
+<select id="query" name="comment_type" required>
+  <option value="None"></option>
+  <option value="Question">Question</option>
+  <option value="Feedback">Feedback</option>
+  <option value="Complaint">Complaint</option>
+  <option value="Other">Other</option>
+
 </select><br>
 
 <!-- Comment Section -->
 <p>
   <textarea name="comment_section" placeholder="Type your message here..."></textarea>
+  <textarea name="comment_section" placeholder="Type your message here" required></textarea>
 </p>
 
 <!-- Submit Button -->

@@ -58,10 +58,6 @@ textarea {
   background-color: rgb(168,170,255); /* Light Blue 3 */
   border: none;
   border-radius: 5px;
-<<<<<<< HEAD
-  font-family: arial;
-  font-size: 13px;
-=======
   font-family: arial
 >>>>>>> 529850db92e7913df1b3112a6a58f74099e51f6e
 }
@@ -98,36 +94,22 @@ input[id="email"],[id="phone"] {
 /* Query Question */
 input[id="comment_query"]{
   box-sizing: border-box;
-  width:250px;
   width: 172.5px;
   border: none;
   border-radius: 5px;
   padding: 10px;
-<<<<<<< HEAD
-  margin-top: 5px;
-=======
->>>>>>> 529850db92e7913df1b3112a6a58f74099e51f6e
   background-color: rgb(201,201,255); /* Light Blue 2 */
   margin-bottom: 0px;
 }
 
 select[id="query"]{
-<<<<<<< HEAD
-  box-sizing: border-box;
-  width: 125px;
-  padding: 8.5px;
-  margin-left: 0px;
-  margin-top: 5px;
-  outline: none;
-=======
   color:rgb(62,0,248);
-  box-sizing: border-box; 
-  width: 172.5px; 
+  box-sizing: border-box;
+  width: 172.5px;
   height: 34px;
-  padding: 7px; 
- 
-  outline: none; 
->>>>>>> 529850db92e7913df1b3112a6a58f74099e51f6e
+  padding: 7px;
+
+  outline: none;
   border: none;
   border-radius: 5px;
   background-color: rgb(201,201,255);/* Light Blue 2 */
