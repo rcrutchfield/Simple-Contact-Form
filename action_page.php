@@ -15,11 +15,29 @@
         padding-right: 10px;
 
         margin: auto;
-        width: 370px;
+        width: 350px;
     }
     span {
         color: blue;
     }
+
+    /* input[type="submit"]{
+      box-sizing: border-box;
+      border: none;
+      padding: 5px; */
+      /* background-color: rgb(68,0,249); /* Dark Blue */ */
+      /* font-family: arial;
+    }
+
+    input[value="Return"]{
+      color: white;
+      margin-left: 10px;
+    }
+
+    input[value="Submit"]{
+      color: white;
+      margin-left: 190px;
+    } */
 
   </style>
 </head>
@@ -47,7 +65,12 @@
 <hr>
     Message:
   <span> <?php echo $_POST["comment_section"]; ?><br></span>
+<!-- <hr> -->
+    <!-- <input type="submit" value="Return"> -->
+    <!-- <input type="submit" value="Submit"> -->
+
 </div>
+
 
 </body>
 </html>
