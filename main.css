@@ -71,7 +71,7 @@ input[id="fname"],[id="lname"]{
   box-sizing: border-box;
   background-color: rgb(232,231,255); /* Light Blue 1 */
   border-radius: 5px;
-  width: 172.5px;
+  width: 175px;
 }
 
 /* Email and Phone Number*/
@@ -79,7 +79,7 @@ input[id="email"],[id="phone"] {
   box-sizing: border-box;
   background-color: rgb(201,201,255);
   border-radius: 5px;
-  width: 172.5px;
+  width: 175px;
 }
 
 /* Query Question */
@@ -94,11 +94,12 @@ input[id="comment_query"]{
 
 select[id="query"]{
   color:rgb(62,0,248);
-  box-sizing: border-box;
-  width: 172.5px;
+  box-sizing: border-box; 
+  width: 172.5px; 
   height: 34px;
-  padding: 7px;
-  outline: none;
+  padding: 7px; 
+ 
+  outline: none; 
   border: none;
   border-radius: 5px;
   background-color: rgb(201,201,255);/* Light Blue 2 */
